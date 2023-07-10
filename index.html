@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature Convertor</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <h3>Temperature Convertor</h3>
+      <div class="Content">
+        <div class="Celsius Card">
+          <input type="number" name="Celsius" id="celsius" class="temps" oninput="celToFar()" />
+          <label for="celsius">Celsius</label>
+        </div>
+        <div class="Fahrenhit Card">
+          <input type="number" name="Fahrenhit" id="fahren" class="temps" oninput="farToCel()" />
+          <label for="fahren">Fahrenheit</label>
+        </div>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
